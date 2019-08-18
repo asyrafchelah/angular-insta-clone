@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+}/* You can add global styles to this file, and also import other style files */
+
+span {
+    float: right;
+    
+}
+
+body{
+    margin:0px;
+    padding-top: 60px;
+    width: 100%;
+}
+
+img
+{
+    height: 250px;
+    width: 250px;
+}
+
+#main{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.show-users-box , .show-user-image{
+    
+    width: 250px;
+    background-color: lightyellow;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin:10px;
+
+}
+

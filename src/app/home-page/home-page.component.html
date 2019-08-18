@@ -1,0 +1,22 @@
+<nav>
+    <!-- This is the header -->
+    <div>
+        <span>login</span>
+        <span>sign up</span>
+
+    </div>
+</nav>
+
+<div id="main">
+    <div class="show-users-box" *ngFor="let user of userData; let i = index">
+        <div>
+            <img [src]="user.profileImage">
+            <a routerLink="/users/{{user.id}}/images">{{user.username}}</a>
+
+
+        </div>
+
+
+    </div>
+
+</div>

@@ -1,0 +1,16 @@
+<nav>
+    <!-- This is the header -->
+    <div>
+        <span>login</span>
+        <span>sign up</span>
+
+    </div>
+</nav>
+
+<div id="main">
+    <div class="show-user-image" *ngFor="let image of images; let i = index">
+        <div>
+            <img [src]= image>
+        </div>
+    </div>
+</div>
